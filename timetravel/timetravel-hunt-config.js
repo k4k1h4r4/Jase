@@ -16,7 +16,7 @@
 window.TIME_HUNT_CONFIG = {
   id: 'frontside-time-hunt-v1', // Change the id to start a separate saved hunt.
   initialStep: 1,
-  completionMessage: "Congratulations on completing your mission.  Use code 816 to unlock your present!",
+  completionMessage: "Congratulations on repairing the timeline, and returning to your party.\n\nHappy 10th Birthday, Jase!\nLove- Clayton, Lacie & Preslie\n\nNow use code 816 to unlock your present!",
   steps: [
     {
       step: 1,
@@ -44,7 +44,7 @@ window.TIME_HUNT_CONFIG = {
     },
     {
       step: 5,
-      message: "Great work!\n\nTimeline repair complete!\n\nNow get back to your birthday party!  Your guests are waiting!",
+      message: "Timeline repair is complete! Great work!\n\nNow travel back to your 10th birthday party.  Hurry, your guests are waiting!",
       destinationkey: '10102026', 
       clip: 'images/bttf-end.webm' 
     }
