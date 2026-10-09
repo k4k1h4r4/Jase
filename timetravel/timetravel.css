@@ -135,7 +135,7 @@ button:focus-visible { outline: 2px solid #eff3cf; outline-offset: 4px; }
 .completion-popup h2 { margin: 12px auto; padding: 0; background: none; box-shadow: none; font-size: clamp(27px,7vw,36px); letter-spacing: 2px; color: #ffe28b; text-shadow: 0 0 14px #ffaf3555; }
 .mission-rule { height: 2px; margin: 20px auto; background: linear-gradient(90deg,transparent,#6ee1e9,transparent); }
 #completion-message { font-size: 16px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; }
-#close-completion, #restart-mission { width: 100%; min-height: 48px; margin-top: 16px; padding: 12px; border: 1px solid #ffdd83; border-radius: 4px; background: linear-gradient(#ffe8a4,#e5b44c); color: #34290e; font: 700 16px 'Barlow Condensed',sans-serif; letter-spacing: 1px; box-shadow: 0 0 12px #ffc33933; cursor: pointer; }
+#restart-mission { width: 100%; min-height: 48px; margin-top: 16px; padding: 12px; border: 1px solid #ffdd83; border-radius: 4px; background: linear-gradient(#ffe8a4,#e5b44c); color: #34290e; font: 700 16px 'Barlow Condensed',sans-serif; letter-spacing: 1px; box-shadow: 0 0 12px #ffc33933; cursor: pointer; }
 #restart-mission { margin-top: 12px; border-color: #69dce6; background: linear-gradient(#213e46,#14282e); color: #a2eef3; box-shadow: 0 0 12px #21d5ed22; }
 @media (prefers-reduced-motion: no-preference) { .completion-popup[open] { animation: mission-arrival .45s ease-out; } @keyframes mission-arrival { from { opacity: 0; transform: translateY(12px) scale(.96); } to { opacity: 1; transform: translateY(0) scale(1); } } }
 @media (max-width: 540px) { .destination-actions h2 { padding-left: 5px; padding-right: 5px; letter-spacing: .8px; }.message-button { padding-left: 5px; padding-right: 5px; font-size: 10px; } }
