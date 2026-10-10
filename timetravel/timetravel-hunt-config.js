@@ -32,18 +32,24 @@ window.TIME_HUNT_CONFIG = {
     },
     {
       step: 3,
-      message: "Travel to the day you flew on an airplane for the first time.\n\nHINT: Check the pickup glovebox.",
+      message: "Travel to your first day of Kindergarten.\n\nHINT: Check the pickup glovebox.",
+      destinationkey: '08142023', 
+      clip: 'images/timemachine.webm'
+    },
+    {
+      step: 4,
+      message: "Travel to the day you flew in an airplane for the first time.\n\nHINT: Check the bar.",
       destinationkey: '02122025', 
       clip: 'images/azkaban.webm'
     },
     {
-      step: 4,
-      message: "Travel to the day you drove a tractor all by yourself.\n\nHINT: Check behind the shuffleboard table.",
+      step: 5,
+      message: "Travel to the day you drove a tractor by yourself.\n\nHINT: Check the shuffleboard table.",
       destinationkey: '09262026', 
       clip: 'images/billted.webm' 
     },
     {
-      step: 5,
+      step: 6,
       message: "Timeline repair is complete! Great work!\n\nNow travel back to your 10th birthday party.  Hurry, your guests are waiting!",
       destinationkey: '10102026', 
       clip: 'images/bttf-end.webm' 
